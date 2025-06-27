@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>maksydab Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="stylesheet"  href="components/eyeball.css"/>
+  <script src="components/eyeball.js"></script>
+</head>
+<body>
+
+    
+
+  <main class="container" role="main">
+    <section id="about-me" aria-label="About Me">
+      <h1>About Me <div class="eyeball" style="width: 190px; height: 190px; float: right; margin: 10px;"></div></h1>
+      
+      <p>
+        I’m maksydab. I'm a programmer passionate about creating and learning new things. I love to create stuff. Currently, I can code in C++, JS, TS, Python, GDScript, React, Next.js, Lua, HTML, and CSS. I'm a quick learner, so even if I don't know the technology your project uses, I will quickly learn it.
+      </p>
+    </section>
+    
+
+    <section id="projects" aria-label="Projects">
+      <h2>Projects</h2>
+      <div class="eyeball" style="width: 100px; height: 100px; float: right; margin: 10px;"></div>
+      <article class="project even" tabindex="0">
+        <div class="project-text">
+          <h3 class="project-title">Notetaking App</h3>
+          <div class="project-desc" data-markdown>
+            A simple note-taking app I made in C++.
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra2" aria-describedby="desc2">More Info</button>
+          <div id="extra2" class="extra-info" aria-hidden="true" data-markdown>
+            Developed using ImGui, GLFW, and GLEW in C++, it's a simple note-taking app that saves notes and tasks. Nothing fancy, but it's a functional app even with a low-level ImGui API. I also tried to make it look good.  
+            [Notetaking app source code](https://github.com/maksydab/note_taking_app)
+          </div>
+        </div>
+        <div class="project-image-container" aria-label="Project 2 image">
+          <img src="static/justnotetakingscreenshot.jpg" alt="Screenshot of Project 2" class="project-image" draggable="false" />
+        </div>
+      </article>
+
+      <article class="project odd" tabindex="0"><div class="eyeball" style="width: 100px; height: 100px; float: left; margin: 10px;"></div>
+        <div class="project-image-container" aria-label="Project 1 image">
+          <img src="static/bob16img.jpg" alt="Screenshot of Project 1" class="project-image" draggable="false" />
+        </div>
+        <div class="project-text">
+          <h3 class="project-title">bob16</h3>
+          <div class="project-desc" data-markdown>
+            A simple Pygame-like JS game engine.
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra1" aria-describedby="desc1">More Info</button>
+          <div id="extra1" class="extra-info" aria-hidden="true" data-markdown>
+            Built using the JS Canvas API. It has its own editor at [The bob16 editor](https://maksydab.github.io/bob16/). It includes features such as modifying code in Lua and creating art, then using that art to create tilemaps. The unique feature is that it saves all game data into PNG files.
+          </div>
+        </div>
+      </article>
+
+      <article class="project even" tabindex="0">
+        <div class="project-text">
+          <h3 class="project-title">Ubabuba</h3>
+          <div class="project-desc" data-markdown>
+            A quick platformer game with a gravitational twist.
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra2" aria-describedby="desc2">More Info</button>
+          <div id="extra2" class="extra-info" aria-hidden="true" data-markdown>
+            Developed using Godot. It's a quick little platformer game where you use A, Space, and D to move around, and pressing W flips gravity. All graphics were made by me. It’s my first fully finished game (I'm not really proud of it though; it was put together in less than a week or two during free time).  
+            [Ubabuba on itch](https://maksydab.itch.io/ubabuba)
+          </div>
+        </div>
+        <div class="project-image-container" aria-label="Project 2 image">
+          <img src="static/ubababubascreenshot.jpg" alt="Screenshot of Project 2" class="project-image" draggable="false" />
+        </div>
+      </article>
+
+      <article class="project odd" tabindex="0">
+        <div class="project-image-container" aria-label="Project 3 image">
+          <img src="static/theragegame.gif" alt="Screenshot of Project 3" class="project-image" draggable="false" />
+        </div>
+        <div class="project-text">
+          <h3 class="project-title">Untitled Unfinished Rage-Game</h3>
+          <div class="project-desc" data-markdown>
+            This game is like a Foddian game but with my own little twist. It's 2D.
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra3" aria-describedby="desc3">More Info</button>
+          <div id="extra3" class="extra-info" aria-hidden="true" data-markdown>
+            It's hopefully going to be fully hand-drawn or use some assets based on my vector art, with full customization, and available to play on the web for free. Made in Godot.
+          </div>
+        </div>
+      </article>
+
+      <article class="project even" tabindex="0">
+        <div class="project-text">
+          <h3 class="project-title">Untitled Little Device</h3>
+          <div class="project-desc" data-markdown>
+            Just a simple device I made using a Raspberry Pi Pico.
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra4" aria-describedby="desc4">More Info</button>
+          <div id="extra4" class="extra-info" aria-hidden="true" data-markdown>
+            This device was made using a Raspberry Pi Pico and an LCD. Sadly, I lost the device somewhere, but I had this old photo of it. It had many little apps inside it, like Paint or Flappy Bird, made using the Framebuf module from MicroPython.
+          </div>
+        </div>
+        
+        <div class="project-image-container" aria-label="Project 4 image">
+          
+          <img src="static/andevice.webp" alt="Screenshot of Project 4" class="project-image" draggable="false" />
+        </div>
+      </article>
+      <div class="eyeball" style="width: 125px; height: 125px; float: left; margin: 10px;"></div>
+      <article class="project odd" tabindex="0">
+        <div class="project-image-container" aria-label="Project 3 image">
+          <img src="static/langton.jpg" alt="Screenshot of Project 3" class="project-image" draggable="false" />
+        </div>
+        <div class="project-text">
+          <h3 class="project-title">Living langton's ant</h3>
+          <div class="project-desc" data-markdown>
+            This simulator uses langton's ant like algorithm of ants but with a twist it has evolution like mechanics
+          </div>
+          <button class="more-info-btn" aria-expanded="false" aria-controls="extra3" aria-describedby="desc3">More Info</button>
+          <div id="extra3" class="extra-info" aria-hidden="true" data-markdown>
+            It was made in just basic html ,js and sprinkle of css. This simulator theoreticlly has infinite possiblities as many times if u set just perfect parameters ants can create civiliaztion-like sustainable ecosystem , also if u have pretty decent pc you an crank up the grid width to recommended 1k by 1k
+            [langtons-ant by maksydab](https://langtons-ant-maksydab.netlify.app/)
+          </div>
+        </div>
+      </article>
+
+
+    </section>
+        <section id="honorary-mentions" aria-label="Honorary Mentions">
+      <h2>Honorary Mentions</h2>
+      <ul class="honorary-list">
+        <li class="honorary-item">
+          <img src="static/lilones/rgbtoimg.jpg" alt="Small Project 1 thumbnail" />
+          <div class="honorary-info">
+            <p class="honorary-title">Castle img to raw rgb</p>
+            <p class="honorary-desc">https://castle-img-to-raw-rgb.netlify.app - an page i made to convert images to my rgb engine in castle</p>
+          </div>
+        </li>
+        <li class="honorary-item">
+          <img src="static\lilones\shooter.jpg" alt="Small Project 2 thumbnail" />
+          <div class="honorary-info">
+            <p class="honorary-title">An unfinished shooter game</p>
+            <p class="honorary-desc">Simple shooter game with so much juicy effects in it </p>
+          </div>
+        </li>
+        <li class="honorary-item">
+          <img src="static/lilones/castle3drendererscreenshot.jpg" alt="Small Project 3 thumbnail" />
+          <div class="honorary-info">
+            <p class="honorary-title">3d renderer in castle app</p>
+            <p class="honorary-desc">a lil 3d renderer in 2d based, castle.xyz which means eveyrthing is possible</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+  </main>
+
+
+  <script src="components/markdown.js"></script>
+</body>
+</html>
